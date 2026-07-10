@@ -1,4 +1,5 @@
 import React from 'react'
+import NavigationBar from './NavigationBar'
 
 const AddPatient = () => {
     return (
@@ -24,7 +25,7 @@ const AddPatient = () => {
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
-                                <label htmlFor="" className="form-label"><Age></Age></label>
+                                <label htmlFor="" className="form-label">Age</label>
                                 <input type="number" className="form-control" />
 
                             </div>
